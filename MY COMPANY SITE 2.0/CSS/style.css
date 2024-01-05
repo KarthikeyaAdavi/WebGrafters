@@ -1,0 +1,163 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+a{
+    text-decoration: none;
+    color:white;    
+}
+a:visited{
+    text-decoration: none;
+}
+
+
+
+/*NAVIGATION BAR*/
+
+#NavBar{
+    text-align: center;
+    background-color: black;
+}
+#NavBar-Logo{
+    width: 50px;
+    height: 50px;
+    padding:25px 0px 25px 0px;
+}
+#NavBar-right{
+    display:flex;
+    justify-content: center;
+    gap:61px;
+    color: white;
+    font-size: 15px;
+}
+.NavBar-item{
+    list-style-type:none;
+    padding-bottom:20px;
+}
+
+
+
+
+
+
+
+/*WEBSITE BODY PART 1*/
+
+#Introduction-Section{
+    text-align: center;
+    align-items: center;
+    background:linear-gradient(goldenrod 60%,#F4D35E);
+}
+#Hooking-line{
+    font-size: 40px;
+    max-width:300px;
+    text-align:center;
+    margin:0 auto;
+    padding-top:4vh ;
+    margin-bottom: 3vh;
+}
+#Head-line-Desc{
+    font-size:20.5px;
+    margin:0 auto;
+    padding:0px 20px 0px 20px;
+    max-width: 350px;
+}
+#Contact-Button{
+    color:white;
+    background-color: black;
+    padding:0.4rem 2rem 0.4rem 2rem;
+    border-radius: 5px;
+    margin:4vh 0 8vw 2vh;
+}
+
+
+
+
+
+
+/*WEBSITE BODY PART 2*/
+#Str{
+    align-items: center;
+    text-align: center;
+    background-color: #F4D35E;
+}
+#Str-pts-Title{
+    padding-top:3vh;
+    text-decoration:underline;
+}
+.Topic-title{
+    text-decoration: underline;
+    margin-bottom: 2vh;
+}
+.Str-topic{
+    margin:3vh 4vw  0vh 4vw;
+    padding-bottom:4vh;
+}
+.Topic-Description{
+
+    padding:0 20px 0 20px;
+    max-width:390px;
+    margin:0 auto;
+}
+
+
+
+
+
+
+/*WEBSITE BODY PART 3*/
+#Prj-Disp-Title{
+    padding:3%;
+    text-align: center;
+    background-color: rgb(40, 40, 40);
+    color:white;
+}
+#Prj-Disp-Space{
+    padding:10vh 5vw;
+    display:flex;
+    justify-content:space-around;
+    gap:5vw;
+    background-color: #87BCDE;
+}
+
+/*POST CARD*/
+#Envelope-bg{
+    display: flex;
+    justify-content: center;
+    padding: 5vh 10vw 7vh 10vw;
+    background-image: url("/IMAGES/Postcard-bg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+}
+#Envelope-shape{ 
+   background-color: #D9D9D9;
+   padding:0.5rem 0.5rem;
+   display:flex;
+   justify-content: space-between;
+   max-width: 251px;
+   max-height: 139px;
+
+}
+#Envelope-left{
+    margin-right:10px;
+}
+#Postcard-img{
+    
+    height:126px;
+    width:93 px;
+}
+#Contact-Button-2{
+    position:absolute;
+    margin-top:37px;
+    border:solid 2px black;
+    background-color: black;
+    padding:5px;
+    border-radius: 3.5px;
+    text-decoration: none;
+}
+
+
+
+/*FOOTER*/
